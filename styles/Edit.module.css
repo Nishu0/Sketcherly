@@ -1,0 +1,219 @@
+.container {
+    background-color: #121219;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    background-color: #08090D;
+    height: 100vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 10px;
+    border-right: solid 1px #20222D ;;
+}
+
+.navButton {
+    background-color: transparent;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    height: 50px;
+    width: 300px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    color: #ffffff;
+}
+
+.navButton:hover {
+    background-color: #171720;
+    
+}
+
+.navButtonActive {
+    background-color: #2599FF;
+    transition: ease-in-out;
+}
+
+.navButtonActive:hover {
+    background-color: #2599FF;
+}
+
+.inputShaded {
+    background-color: #303544;
+    padding-left: 24px;
+    height: 50px;
+    width: 300px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    margin-bottom: 15px;
+}
+
+.fileName {
+    border-bottom:1.5px solid #20222D;
+    border-top:1.5px solid #20222D;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 0px;
+    font-family: 'Poppins';
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.divider {
+    background-color: #20222D;
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.workspace {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.alignSpace {
+    width: 960px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.actionButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.page {
+    border: 1px solid #20222D;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+
+.actionButton {
+    width: 100px;
+    height: 50px;
+    background-color: #303544;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    /* border-bottom: 1px solid #20222D; */
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    gap:5px;
+    cursor: pointer;
+    color: #fff;
+}
+.actionButton:hover{
+    background-color: #20222D;
+}
+
+.actionButton2 {
+    width: 150px;
+    height: 50px;
+    background-color: #2599FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    /* border-bottom: 1px solid #20222D; */
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    gap:5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.pages {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    height: 150px;
+    width: 960px;
+    border:1px solid  #20222D;
+    border-radius: 10px;
+    padding-left: 25px;
+    overflow-x: auto;
+    /* scrollbar-width: 2px;
+    scrollbar-color: transparent transparent;
+    scrollbar-gutter: stable both-edges; */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.pages::-webkit-scrollbar {
+    display: none;
+    width: 2px;
+    height: 8px;
+    position: absolute;
+    scrollbar-gutter: stable both-edges;
+    margin: 0;
+    padding: 0;
+  }
+  /*
+
+.pages::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    transition: background 0.3s;
+    background: rgba(0, 0, 0, .75);
+    width: 2px;
+    position: absolute;
+    scrollbar-gutter: stable both-edges;
+    margin: 0;
+    padding: 0;
+} */

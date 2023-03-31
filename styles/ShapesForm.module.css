@@ -1,0 +1,124 @@
+.formLayout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.shapesLayout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.shapesContainer {
+    width: 140px;
+    height: 100px;
+    border: 1px solid #171720;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border-color: #303544;
+}
+
+.circle {
+    height: 50px;
+  width: 50px;
+  background-color: #303544;
+  border-radius: 50%;
+}
+
+.line {
+    height: 2px;
+    width: 75px;
+  background-color: #303544;
+  transform: rotate(45deg);
+
+}
+
+.triangle {
+    background-color: #303544;
+	clip-path: polygon(50% 0, 100% 100%, 0 100%);
+	width: 50px;
+	height: 50px;
+}
+
+.submitButton {
+    background-color: #2599FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+.clickButtonUnshaded {
+    width: 100%;
+    height: 50px;   
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #121219;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    gap:5px;
+    padding-left: 24px;
+    margin-top:10px;
+}
+
+.buttonLabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+.alignBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #121219;
+    border-radius: 5px;
+    height: 50px;
+    padding-left: 24px;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.colorLabel {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #121219;
+    cursor: pointer;
+}
+
+.colorInputText {
+    background-color: transparent;
+    font-size: 16px;
+    color: #fff;
+    width: 75px;
+    border: none;
+    outline: none;
+}
