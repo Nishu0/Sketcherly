@@ -158,7 +158,7 @@ export default function Home() {
           target="blank"
           className={styles.signature}
         >
-          Made for SGP(DKNP)
+          Made with ☕ and ❤️
         </a>
         <a href="https://github.com/Nishu0/Sketcherly" target="blank">
           <button
