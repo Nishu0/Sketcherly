@@ -5,6 +5,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import ReactPlayer from 'react-player'
+
 
 // Firebase
 import { database } from "../firebaseConfig";
@@ -135,12 +137,21 @@ export default function Home() {
       </a>
       <div className={styles.preview}>
         <div className={styles.previewBlur}></div>
-        <Image
+        <ReactPlayer
+          light={<img src='https://res.cloudinary.com/dyk5s8gbw/image/upload/v1697643836/Sketcherly_Thumbnail_kfjito.png' alt='Thumbnail' />} 
+          url='https://res.cloudinary.com/dyk5s8gbw/video/upload/v1697568154/Sketcherly_bezaqt.mkv'
+          controls={true} 
+          playing={true}
+          loop={true}
+          width="854px"
+          height="480px"
+        />
+        {/* <Image
           src="/images/SGP_Home_Page.png"
           alt="preview"
           width="1900px"
           height="940px"
-        />
+        /> */}
       </div>
       <footer className={styles.footer}>
         <a
