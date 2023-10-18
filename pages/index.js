@@ -136,7 +136,6 @@ export default function Home() {
         </button>
       </a>
       <div className={styles.preview}>
-        <div className={styles.previewBlur}></div>
         <ReactPlayer
           light={<img src='https://res.cloudinary.com/dyk5s8gbw/image/upload/v1697643836/Sketcherly_Thumbnail_kfjito.png' alt='Thumbnail' />} 
           url='https://res.cloudinary.com/dyk5s8gbw/video/upload/v1697568154/Sketcherly_bezaqt.mkv'
